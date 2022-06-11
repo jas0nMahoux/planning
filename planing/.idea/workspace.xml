@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="053df3ad-241d-4174-9d18-30318227de72" name="Changes" comment="maj">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/dao/CoursRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/dao/NiveauRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/dao/SalleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/service/CoursService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/service/NiveauService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/service/SalleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nc/univ/planning/cours/Cours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/model/Cours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nc/univ/planning/eleve/Eleve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/model/Eleve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nc/univ/planning/eleve/EleveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nc/univ/planning/eleve/EleveRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/dao/EleveRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nc/univ/planning/eleve/EleveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/service/EleveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nc/univ/planning/niveau/Niveau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/model/Niveau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nc/univ/planning/salle/Salle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nc/univ/planning/model/Salle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nc/univ/planning/cours/Cours.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nc/univ/planning/eleve/Eleve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nc/univ/planning/eleve/EleveController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nc/univ/planning/eleve/EleveRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nc/univ/planning/eleve/EleveService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nc/univ/planning/niveau/Niveau.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nc/univ/planning/salle/Salle.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2AQ4RCfJaYve1a4jOo6jIOGcx04" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../correction_tp/springdata" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="nc.univ.planning" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nc.univ.planning.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.planning">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="planing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="planning" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="nc.univ.planning.PlanningApplication" />
+      <module name="planing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.planning" />
+      <item itemvalue="Application.Unnamed" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="053df3ad-241d-4174-9d18-30318227de72" name="Changes" comment="" />
+      <created>1654928467196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654928467196</updated>
+    </task>
+    <task id="LOCAL-00001" summary="modif">
+      <created>1654934613826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654934613826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="modif">
+      <created>1654942968496</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654942968496</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modif">
+      <created>1654943003258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654943003258</updated>
+    </task>
+    <task id="LOCAL-00004" summary="maj">
+      <created>1654948584000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654948584000</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modif" />
+    <MESSAGE value="maj" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj" />
+  </component>
+</project>
