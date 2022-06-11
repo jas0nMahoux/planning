@@ -15,4 +15,11 @@ public class Niveau {
     public String code;
     public String libelle;
 
+    public Niveau() {
+
+    }
+    public Niveau(String code, String libelle) {
+        this.code = code;
+        this.libelle = libelle;
+    }
 }

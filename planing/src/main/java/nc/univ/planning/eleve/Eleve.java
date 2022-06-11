@@ -21,8 +21,20 @@ public class Eleve {
 
     public String adresse;
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL , orphanRemoval = true)
     @JoinColumn(name = "niveau_id")
     public Niveau niveau;
 
+    public Eleve() {
+
+    }
+
+    public Eleve(String nom, String prenom, int age, String adresse, Niveau niveau) {
+        this.id = id;
+        this.nom = nom;
+        this.prenom = prenom;
+        this.age = age;
+        this.adresse = adresse;
+        this.niveau = niveau;
+    }
 }

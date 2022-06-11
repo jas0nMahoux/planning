@@ -16,12 +16,12 @@ public class EleveController {
 
     @GetMapping("/findAllEleve")
     public ResponseEntity<List<Eleve>> findAllEleve() {
-        List<Eleve> pbMaths = eleveService.findAllEleve();
-        return new ResponseEntity<>(pbMaths, HttpStatus.OK);
+        List<Eleve> listEleve = eleveService.findAllEleve();
+        return new ResponseEntity<>(listEleve, HttpStatus.OK);
     }
 
-    @PostMapping("/save")
-    public ResponseEntity<Eleve> saveEleve(@RequestBody Eleve eleve) {
+    @PostMapping("/save/{eleve}")
+    public ResponseEntity<Eleve> saveEleve(@PathVariable("eleve") Eleve eleve) {
         Eleve newResult = eleveService.saveEleve(eleve);
         return new ResponseEntity<>(newResult, HttpStatus.CREATED);
     }
