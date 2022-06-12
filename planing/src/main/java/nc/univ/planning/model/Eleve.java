@@ -11,7 +11,7 @@ public class Eleve {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public int id;
+    public Long id;
 
     public String nom;
 

@@ -22,7 +22,7 @@ public class EleveService {
         return eleveRepository.findAll();
     }
 
-    public Object findEleve(int id) {
+    public Object findEleve(Long id) {
         return  eleveRepository.findEleveById(id).orElseThrow(() -> new EleveNotFoundException("L'élève numéro " + id + " n'est pas enregistré en base de données."));
     }
 
@@ -30,7 +30,7 @@ public class EleveService {
         return eleveRepository.save(eleve);
     }
 
-    public void deleteEleve(int id) {
+    public void deleteEleve(Long id) {
         eleveRepository.deleteEleveById(id);
     }
 }

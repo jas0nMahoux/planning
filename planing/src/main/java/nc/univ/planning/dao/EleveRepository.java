@@ -9,7 +9,7 @@ import java.util.Optional;
 @Repository
 public interface EleveRepository extends JpaRepository<Eleve, String> {
 
-    void deleteEleveById(int id);
+    void deleteEleveById(Long id);
 
-    Optional<Object> findEleveById(int id);
+    Optional<Object> findEleveById(Long id);
 }

@@ -29,7 +29,7 @@ public class EleveController {
     }
 
     @GetMapping("/find/{id}")
-    public ResponseEntity<Object> getResultat(@PathVariable("id") int id) {
+    public ResponseEntity<Object> getResultat(@PathVariable("id") Long id) {
         Object result = eleveService.findEleve(id);
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
@@ -42,7 +42,7 @@ public class EleveController {
 
     @Transactional
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<?> deleteEleve(@PathVariable("id") int id) {
+    public ResponseEntity<?> deleteEleve(@PathVariable("id") Long id) {
         eleveService.deleteEleve(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
