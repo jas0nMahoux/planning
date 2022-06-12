@@ -11,4 +11,6 @@ public interface EleveRepository extends JpaRepository<Eleve, String> {
     void deleteEleveById(Long id);
 
     Optional<Object> findEleveById(Long id);
+
+    Eleve update(Eleve eleve);
 }

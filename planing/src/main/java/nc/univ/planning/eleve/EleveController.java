@@ -27,7 +27,7 @@ public class EleveController {
     }
 
     @GetMapping("/find/{id}")
-    public ResponseEntity<Object> getResultat(@PathVariable("id") Long id) {
+    public ResponseEntity<Object> getEleve(@PathVariable("id") Long id) {
         Object result = eleveService.findEleve(id);
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
