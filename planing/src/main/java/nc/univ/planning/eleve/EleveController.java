@@ -34,8 +34,8 @@ public class EleveController {
 
     @PutMapping("/update")
     public ResponseEntity<Eleve> updateEleve(@RequestBody Eleve eleve) {
-        Eleve updateEleve = eleveService.updateEleve(eleve);
-        return new ResponseEntity<>(updateEleve, HttpStatus.OK);
+        eleveService.updateEleve(eleve);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @Transactional

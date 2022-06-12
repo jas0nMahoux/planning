@@ -26,8 +26,8 @@ public class EleveService {
         return  eleveRepository.findEleveById(id).orElseThrow(() -> new EleveNotFoundException("L'élève numéro " + id + " n'est pas enregistré en base de données."));
     }
 
-    public Eleve updateEleve(Eleve eleve) {
-        return eleveRepository.update(eleve);
+    public void updateEleve(Eleve eleve) {
+        eleveRepository.update(eleve.id);
     }
 
     public void deleteEleve(Long id) {
