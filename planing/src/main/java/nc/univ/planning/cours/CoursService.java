@@ -9,4 +9,8 @@ public class CoursService {
 
     @Autowired
     private CoursRepository coursRepository;
+
+    public void delete(Long id) {
+        coursRepository.deleteCoursById(id);
+    }
 }
