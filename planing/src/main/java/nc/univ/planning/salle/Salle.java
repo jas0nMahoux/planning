@@ -15,4 +15,11 @@ public class Salle {
     public String nom;
     public String code;
 
+    public Salle(){}
+
+    public Salle(int capacite, String nom, String code){
+        this.capacite = capacite;
+        this.nom = nom;
+        this.code = code;
+    }
 }
