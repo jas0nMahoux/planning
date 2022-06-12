@@ -27,7 +27,7 @@ public class EleveService {
     }
 
     public void updateEleve(Eleve eleve) {
-        eleveRepository.update(eleve.id);
+        eleveRepository.save(eleve);
     }
 
     public void deleteEleve(Long id) {

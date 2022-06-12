@@ -14,6 +14,4 @@ public interface EleveRepository extends JpaRepository<Eleve, String> {
 
     Optional<Object> findEleveById(Long id);
 
-    @Query("update eleve from Eleve where eleve.id = :id")
-    void update(@Param("id") Long id);
 }
