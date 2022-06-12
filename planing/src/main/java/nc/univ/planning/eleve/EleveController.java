@@ -44,7 +44,4 @@ public class EleveController {
         eleveService.deleteEleve(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-
-
-
 }
