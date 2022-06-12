@@ -1,6 +1,6 @@
-package nc.univ.planning.service;
+package nc.univ.planning.cours;
 
-import nc.univ.planning.dao.CoursRepository;
+import nc.univ.planning.cours.CoursRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

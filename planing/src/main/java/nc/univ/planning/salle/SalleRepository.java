@@ -1,6 +1,6 @@
-package nc.univ.planning.dao;
+package nc.univ.planning.salle;
 
-import nc.univ.planning.model.Salle;
+import nc.univ.planning.salle.Salle;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

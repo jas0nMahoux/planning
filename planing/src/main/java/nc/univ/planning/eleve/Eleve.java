@@ -1,7 +1,7 @@
-package nc.univ.planning.model;
+package nc.univ.planning.eleve;
 
 import lombok.Data;
-import nc.univ.planning.model.Niveau;
+import nc.univ.planning.niveau.Niveau;
 
 import javax.persistence.*;
 

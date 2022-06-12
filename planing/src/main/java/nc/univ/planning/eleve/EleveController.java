@@ -1,7 +1,5 @@
 package nc.univ.planning.eleve;
 
-import nc.univ.planning.model.Eleve;
-import nc.univ.planning.service.EleveService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

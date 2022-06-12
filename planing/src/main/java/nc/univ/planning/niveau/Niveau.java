@@ -1,4 +1,4 @@
-package nc.univ.planning.model;
+package nc.univ.planning.niveau;
 
 import lombok.Data;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;

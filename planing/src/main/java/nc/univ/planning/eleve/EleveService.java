@@ -1,8 +1,8 @@
-package nc.univ.planning.service;
+package nc.univ.planning.eleve;
 
-import nc.univ.planning.model.Eleve;
-import nc.univ.planning.dao.EleveRepository;
-import nc.univ.planning.exception.EleveNotFoundException;
+import nc.univ.planning.eleve.Eleve;
+import nc.univ.planning.eleve.EleveRepository;
+import nc.univ.planning.eleve.EleveNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

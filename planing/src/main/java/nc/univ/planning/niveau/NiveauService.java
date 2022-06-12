@@ -1,6 +1,6 @@
-package nc.univ.planning.service;
+package nc.univ.planning.niveau;
 
-import nc.univ.planning.dao.NiveauRepository;
+import nc.univ.planning.niveau.NiveauRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

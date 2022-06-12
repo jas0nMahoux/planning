@@ -1,9 +1,9 @@
-package nc.univ.planning.model;
+package nc.univ.planning.cours;
 
 import lombok.Data;
-import nc.univ.planning.model.Eleve;
-import nc.univ.planning.model.Niveau;
-import nc.univ.planning.model.Salle;
+import nc.univ.planning.eleve.Eleve;
+import nc.univ.planning.niveau.Niveau;
+import nc.univ.planning.salle.Salle;
 
 import javax.persistence.*;
 import java.util.ArrayList;

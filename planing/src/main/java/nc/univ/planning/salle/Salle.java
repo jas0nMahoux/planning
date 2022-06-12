@@ -1,4 +1,4 @@
-package nc.univ.planning.model;
+package nc.univ.planning.salle;
 
 import lombok.Data;
 
