@@ -16,9 +16,9 @@ public class Cours {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    public Date dateDebut;
+    public Date debut;
 
-    public Date dateFin;
+    public Date fin;
 
     @OneToOne
     @JoinColumn(name = "niveau_id")
@@ -29,5 +29,15 @@ public class Cours {
     public Salle salle;
 
     public ArrayList<Eleve> eleves;
+
+    public Cours(){}
+
+    public Cours(Date debut, Date fin, Niveau niveau, Salle salle, ArrayList<Eleve> eleves){
+        this.debut = debut;
+        this.fin = fin;
+        this.niveau = niveau;
+        this.salle = salle;
+        this.eleves = eleves;
+    }
 
 }

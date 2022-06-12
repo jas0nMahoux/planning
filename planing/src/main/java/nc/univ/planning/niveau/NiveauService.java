@@ -9,4 +9,8 @@ public class NiveauService {
 
     @Autowired
     private NiveauRepository niveauRepository;
+
+    public void delete(Long id) {
+        niveauRepository.deleteNiveauById(id);
+    }
 }
