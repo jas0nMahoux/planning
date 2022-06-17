@@ -1,5 +1,6 @@
 package nc.univ.planning.eleve;
 
+import nc.univ.planning.cours.Cours;
 import nc.univ.planning.eleve.Eleve;
 import nc.univ.planning.eleve.EleveRepository;
 import nc.univ.planning.eleve.EleveNotFoundException;
@@ -32,5 +33,21 @@ public class EleveService {
 
     public void deleteEleve(Long id) {
         eleveRepository.deleteEleveById(id);
+    }
+
+    public List<Eleve> findAllEleveByOrderByNom() {
+        return eleveRepository.findAllEleveByOrderByNom();
+    }
+
+    public List<Eleve> findAllEleveByOrderByPrenom() {
+        return eleveRepository.findAllEleveByOrderByPrenom();
+    }
+
+    public List<Eleve> findAllEleveByOrderByAge() {
+        return eleveRepository.findAllEleveByOrderByAge();
+    }
+
+    public List<Eleve> findAllEleveByOrderByNiveauCode() {
+        return eleveRepository.findAllEleveByOrderByNiveauCode();
     }
 }

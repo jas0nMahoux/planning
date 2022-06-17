@@ -20,6 +20,30 @@ public class EleveController {
         return new ResponseEntity<>(listEleve, HttpStatus.OK);
     }
 
+    @GetMapping("/findAllEleve/nom")
+    public ResponseEntity<List<Eleve>> findAllEleveOrderByNom() {
+        List<Eleve> listEleve = eleveService.findAllEleveByOrderByNom();
+        return new ResponseEntity<>(listEleve, HttpStatus.OK);
+    }
+
+    @GetMapping("/findAllEleve/prenom")
+    public ResponseEntity<List<Eleve>> findAllEleveOrderByPrenom() {
+        List<Eleve> listEleve = eleveService.findAllEleveByOrderByPrenom();
+        return new ResponseEntity<>(listEleve, HttpStatus.OK);
+    }
+
+    @GetMapping("/findAllEleve/age")
+    public ResponseEntity<List<Eleve>> findAllEleveOrderByAge() {
+        List<Eleve> listEleve = eleveService.findAllEleveByOrderByAge();
+        return new ResponseEntity<>(listEleve, HttpStatus.OK);
+    }
+
+    @GetMapping("/findAllEleve/niveau")
+    public ResponseEntity<List<Eleve>> findAllEleveOrderByNiveau() {
+        List<Eleve> listEleve = eleveService.findAllEleveByOrderByNiveauCode();
+        return new ResponseEntity<>(listEleve, HttpStatus.OK);
+    }
+
     @PostMapping("/save")
     public ResponseEntity<Eleve> saveEleve(@RequestBody Eleve eleve) {
         Eleve newResult = eleveService.saveEleve(eleve);
