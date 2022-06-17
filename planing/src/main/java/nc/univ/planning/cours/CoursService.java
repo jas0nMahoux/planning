@@ -2,6 +2,7 @@ package nc.univ.planning.cours;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import java.util.Date;
 
 import java.util.List;
 
@@ -12,6 +13,16 @@ public class CoursService {
     private CoursRepository coursRepository;
 
     public Cours saveCours(Cours cours) {
+        List<Cours> listCours = coursRepository.findAll();
+        for(Cours c:listCours){
+            if(c.salle == cours.salle) {
+                if ((cours.debut).compareTo(c.debut) < 0 && (cours.fin).compareTo(c.debut) > 0) {
+                    return null;
+                } else if ((cours.debut).compareTo(c.debut) > 0 && (cours.debut).compareTo(c.fin) < 0){
+                    return null;
+                }
+            }
+        }
         return coursRepository.save(cours);
     }
 
