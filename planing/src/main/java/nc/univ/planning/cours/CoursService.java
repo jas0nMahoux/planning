@@ -41,4 +41,8 @@ public class CoursService {
     public void deleteCours(Long id) {
         coursRepository.deleteCoursById(id);
     }
+
+    public List<Cours> findAllCoursByOrderBySalleCode() {
+        return coursRepository.findAllCoursByOrderBySalleCode();
+    }
 }

@@ -44,4 +44,10 @@ public class CoursController {
         coursService.deleteCours(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
+
+    @GetMapping("/findAllCours/salle")
+    public ResponseEntity<List<Cours>> findAllCoursByOrderBySalleCode() {
+        List<Cours> listCours = coursService.findAllCoursByOrderBySalleCode();
+        return new ResponseEntity<>(listCours, HttpStatus.OK);
+    }
 }
