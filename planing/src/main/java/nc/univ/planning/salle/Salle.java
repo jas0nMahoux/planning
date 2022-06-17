@@ -4,8 +4,8 @@ import lombok.Data;
 
 import javax.persistence.*;
 
-@Entity
 @Data
+@Entity
 public class Salle {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -13,6 +13,8 @@ public class Salle {
 
     public int capacite;
     public String nom;
+
+    @Column(unique = true)
     public String code;
 
     public Salle(){}

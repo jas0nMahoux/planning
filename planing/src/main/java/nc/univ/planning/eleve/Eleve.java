@@ -26,11 +26,9 @@ public class Eleve {
     public Niveau niveau;
 
     public Eleve() {
-
     }
 
     public Eleve(String nom, String prenom, int age, String adresse, Niveau niveau) {
-        this.id = id;
         this.nom = nom;
         this.prenom = prenom;
         this.age = age;
