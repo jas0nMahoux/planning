@@ -38,8 +38,8 @@ public class CoursService {
         coursRepository.save(cours);
     }
 
-    public void deleteCours(Long id) {
-        coursRepository.deleteCoursById(id);
+    public List<Cours> deleteCours(Long id) {
+        return coursRepository.deleteCoursById(id);
     }
 
     public List<Cours> findAllCoursByOrderBySalleCode() {

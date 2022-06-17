@@ -40,9 +40,9 @@ public class CoursController {
 
     @Transactional
     @DeleteMapping("/deleteCours/{id}")
-    public ResponseEntity<?> deleteCours(@PathVariable("id") Long id) {
-        coursService.deleteCours(id);
-        return new ResponseEntity<>(HttpStatus.OK);
+    public ResponseEntity<List<Cours>> deleteCours(@PathVariable("id") Long id) {
+        List<Cours> listCours = coursService.deleteCours(id);
+        return new ResponseEntity<>(listCours, HttpStatus.OK);
     }
 
     @GetMapping("/findAllCours/salle")

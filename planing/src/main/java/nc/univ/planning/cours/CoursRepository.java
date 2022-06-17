@@ -10,7 +10,7 @@ import java.util.Optional;
 @Repository
 public interface CoursRepository extends JpaRepository<Cours, Long> {
 
-    void deleteCoursById(Long id);
+    List<Cours> deleteCoursById(Long id);
 
     Optional<Object> findCoursById(Long id);
 
